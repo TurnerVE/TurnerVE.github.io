@@ -13,9 +13,7 @@ a.tip_ahla span{
     color:white
 }
 
-a.tip_ahla img {
-    display: block;
-    
+.ahla_hover {
     -webkit-transition: all 0.5s linear;
        -moz-transition: all 0.5s linear;
         -ms-transition: all 0.5s linear;
@@ -23,8 +21,8 @@ a.tip_ahla img {
             transition: all 0.5s linear;
 }
 
-a.tip_ahla:hover img {
-    opacity: 0.7;
+.ahla_hover:hover {
+    opacity: 0.7!important;
             
 }
 
